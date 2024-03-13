@@ -7,22 +7,22 @@ import { ReactComponent as InstagramIcon } from "./icons/instagram.svg";
 export const socials = [
     {
         name: "GitHub",
-        url: "http://github.com",
+        url: "https://github.com/TomaszBrylski",
         Icon: styleIcon(GithubIcon),
     },
     {
         name: "Facebook",
-        url: "http://facebook.com",
+        url: "https://www.facebook.com/BrylskiTomasz",
         Icon: styleIcon(FaceBookIcon),
     },
     {
         name: "LinkedIn",
-        url: "http://linkedin.com",
+        url: "https://www.linkedin.com/in/tomasz-brylski-470332279/",
         Icon: styleIcon(LinkedInIcon),
     },
     {
         name: "Instagram",
-        url: "http://instagram.com",
+        url: "https://www.instagram.com/tomasz_brylski/",
         Icon: styleIcon(InstagramIcon),
     },
 ];
