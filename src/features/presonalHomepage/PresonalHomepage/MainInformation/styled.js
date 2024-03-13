@@ -51,7 +51,7 @@ export const Name = styled.h1`
 export const Summary = styled.p`
     font-size: 20px;
     margin: 36px 0 0 0;
-    line-height: 1.4%;
+    line-height: 1.4;
     max-width: 650px;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
@@ -67,6 +67,7 @@ export const Summary = styled.p`
 export const Icon = styled.img`
     margin-right: 4px;
     vertical-align: text-top;
+    width: 28px;
 `;
 
 export const StyledButtonLink = styled(ButtonLink)`
