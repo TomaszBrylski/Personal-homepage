@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
         word-break: break-word;
         padding-bottom: 108px;
 
-        @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+        @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
             padding-bottom: 32px;
         }
     }

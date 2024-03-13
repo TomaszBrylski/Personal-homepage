@@ -23,11 +23,11 @@ export const Item = styled.li`
 `;
 
 export const Link = styled.a`
-    color: ${({ theme }) => theme.color.textPrimary};
+    color: ${({ theme }) => theme.colors.textPrimary};
     transition: color 0.3s;
 
     &:hover {
-        color: ${({ theme }) => theme.color.primary};
+        color: ${({ theme }) => theme.colors.primary};
     }
 `;
 

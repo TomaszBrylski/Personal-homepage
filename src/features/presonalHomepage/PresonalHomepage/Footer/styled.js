@@ -28,7 +28,7 @@ export const EmailWrapper = styled.div`
 `;
 
 export const EmailLink = styled.a`
-    color: ${({ theme }) => theme.color.textPrimary};
+    color: ${({ theme }) => theme.colors.textPrimary};
     font-weight: 900;
     font-size: 32px;
     text-decoration: none;
@@ -47,7 +47,7 @@ export const Paragraph = styled.p`
     max-width: 670px;
     font-size: 18px;
     line-height: 1.4;
-    color: ${({ theme }) => theme.color.textPrimary};
+    color: ${({ theme }) => theme.colors.textPrimary};
     margin: 0;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
