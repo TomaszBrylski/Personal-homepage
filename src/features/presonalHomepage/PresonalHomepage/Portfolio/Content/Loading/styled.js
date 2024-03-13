@@ -8,12 +8,15 @@ const rotate = keyframes`
 `;
 
 export const Wrapper = styled.div`
-    text-align: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 88px;
     font-size: 20px;
-    color: ${({ theme }) => theme.color.textPrimary};
-    display: grid;
+    color: ${({ theme }) => theme.colors.textPrimary};
+    display: flex;
     justify-content: center;
+
+
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 17px;
@@ -24,7 +27,7 @@ export const Wrapper = styled.div`
 export const StyledSpinner = styled(Spinner)`
     margin-top: 48px;
     animation: ${rotate} 1s linear infinite;
-    color: ${({ theme }) => theme.color.Primary};
+    color: ${({ theme }) => theme.colors.primary};
     height: auto;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
