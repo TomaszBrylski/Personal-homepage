@@ -1,7 +1,7 @@
 const colorNames = {
     scienceBlue: "#0366D6",
     blumine: "#1F5189",
-    dodgerBlue: "2188FF",
+    dodgerBlue: "#2188FF",
     shipCove: "#6D93BE",
     anakiwa: "#8CC2FF",
     tropicalBlue: "#CDE0F7",
@@ -49,8 +49,8 @@ export const themeLight = {
             header: colorNames.scienceBlue,
         },
         themeSwitch: {
-            background: colorNames. mercury,
-            icon: colorNames. white,
+            background: colorNames.mercury,
+            icon: colorNames.white,
         },
     },
 };
@@ -78,7 +78,7 @@ export const themeDark = {
         },
         themeSwitch: {
             background: colorNames.doveGray,
-            icon: colorNames. mineShaft,
+            icon: colorNames.mineShaft,
         },
     },
 };
