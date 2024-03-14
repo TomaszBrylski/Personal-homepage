@@ -1,6 +1,6 @@
 # Personal Homepage
 
-![Personal Homepage]sc.png
+![Personal Homepage](sc.png)
 
 ## Demo
 https://tomaszbrylski.github.io/Personal-homepage/
