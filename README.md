@@ -1,3 +1,21 @@
+## Technologies
+- API Integration
+- Async/Await
+- Axios
+- CSS Grid
+- Custom Hooks
+- Create React App (Webpack, Babel, ESLint, PostCSS, CSS Loader & Style Loader)
+- Flexbox 
+- Immutability with the immer library in Redux (for state management)
+- JavaScript ES6+ Features
+- JSX (JavaScript XML)
+- Local Storage with Redux-Saga
+- Media Queries
+- React.js
+- Redux (utilizing actions, reducers, and middleware)
+- Styled components (utilization of syntax with template literals)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
