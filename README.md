@@ -1,4 +1,5 @@
 # Personal Homepage
+ Fascinated by innovations in the industry, I am constantly seeking new ways to create interactive and appealing user interfaces.
 
 ![Personal Homepage](sc.png)
 
