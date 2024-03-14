@@ -9,32 +9,32 @@ import toolsIcon from "./toolsIcon.png";
 import rocketIcon from "./rocketIcon.png";
 
 export const PersonalHomepage = () => (
-    <Container>
-        <ThemeSwitch />
-        <MainInformation />
+  <Container>
+    <ThemeSwitch />
+    <MainInformation />
 
-        <main>
-            <Skills
-            title={(
-                <>
-                    My skillset includes <Icon src={toolsIcon} alt="" />
-                </>
-            )}
-            skills={skills}
-            />
+    <main>
+      <Skills
+        title={
+          <>
+            My skillset includes <Icon src={toolsIcon} alt="" />
+          </>
+        }
+        skills={skills}
+      />
 
-            <Skills
-            title={(
-                <>
-                    What I want to learn next <Icon src={rocketIcon} alt="" />
-                </>
-            )}
-            skills={nextSkills}
-            />
+      <Skills
+        title={
+          <>
+            What I want to learn next <Icon src={rocketIcon} alt="" />
+          </>
+        }
+        skills={nextSkills}
+      />
 
-            <Portfolio />
-        </main>
+      <Portfolio />
+    </main>
 
-        <Footer />
-    </Container>
-);  
+    <Footer />
+  </Container>
+);
