@@ -8,7 +8,7 @@ export const skills = [
     "JavaScript: ES6+",
     "React Hooks",
     "NPM",
-    "Working with API (fetch, axios",
+    "Working with API (fetch, axios)",
     "Redux (Toolkit)",
     "Immutabulity",
     "Promises, Async/Await",
