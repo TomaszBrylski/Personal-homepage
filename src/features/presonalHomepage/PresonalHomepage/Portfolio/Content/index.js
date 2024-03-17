@@ -1,8 +1,14 @@
 import { ErrorBox } from "./ErrorBox";
 import { Loading } from "./Loading";
 import { Repositories } from "./Repositories";
+import { useSelector } from "react-redux";
+import { selectRepositories, selectRepositoriesStatus } from "../../../presonalHomepageSlice";
 
-export const Content = ({ status, repositories }) => {
+export const Content = () => {
+
+    const status = useSelector(selectRepositoriesStatus);
+    const repositories = useSelector(selectRepositories);
+
     switch (status) {
         case "initial":
             return null;
