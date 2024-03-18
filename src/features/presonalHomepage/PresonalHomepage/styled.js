@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    max-width: 1248px;
-    padding: 16px;
-    margin: auto;
+    max-width: 1216px;
+    padding: 115px 15px 0px;
+    margin: 0px auto;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-        padding: 8px;
+        padding: 12px;
     }
 `;
 
