@@ -1,4 +1,4 @@
-import tomaszBrylskiProfile from "./profiles.jpg";
+import tomaszBrylskiProfile from "./DSC_0839-2.jpg";
 import { Avatar, StyledButtonLink, ButtonIcon, Name, Summary, ThisIs, Wrapper, Icon } from "./styled";
 import faceIcon from "./faceIcon.png";
 import laptopIcon from "./laptopIcon.png";
