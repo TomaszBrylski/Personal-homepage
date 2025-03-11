@@ -1,4 +1,4 @@
-import tomaszBrylskiProfile from "./src/features/presonalHomepage/PresonalHomepage/MainInformation/profile.jpg";
+import tomaszBrylskiProfile from "./profile.jpg";
 import {
   Avatar,
   StyledButtonLink,
